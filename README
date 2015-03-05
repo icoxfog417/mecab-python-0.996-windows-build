@@ -3,6 +3,11 @@ MeCab python module
 $Id: README,v 1.1.1.1 2005/12/03 14:18:50 taku-ku Exp $;
 
 1. Installation
+  #####
+  Only you have to do is python setup.py install (Because source is already built). 
+  But you have to modify mecab.h as below
+  http://seesaawiki.jp/spz/d/Windows%A4%CBmecab-python%A4%F2%C6%B3%C6%FE
+  #####
 
   % python setup.py build
   % su
@@ -12,6 +17,7 @@ $Id: README,v 1.1.1.1 2005/12/03 14:18:50 taku-ku Exp $;
 
   % python setup.py install --prefix=/tmp/pybuild/foobar
   
+ 
 2. How to use?
 
    see 'test.py' as a sample program.
