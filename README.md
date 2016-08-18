@@ -1,4 +1,4 @@
-MeCab python module
+﻿MeCab python module
 
 $Id: README,v 1.1.1.1 2005/12/03 14:18:50 taku-ku Exp $;
 
@@ -21,6 +21,8 @@ public:
    */
   virtual void clear()              = 0;
 ```
+
+(you can get modified file from `header` folder in this repository)
 
   % python setup.py build
   % su
