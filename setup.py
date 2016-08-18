@@ -15,7 +15,7 @@ setup(name = "mecab-python",
 	ext_modules = [
 		Extension("_MeCab",
 			["MeCab_wrap.cxx",],
-			include_dirs=["C:/Users/tie301837/Documents/environments/MeCab/sdk"],
-			library_dirs=["C:/Users/tie301837/Documents/environments/MeCab/sdk"],
+			include_dirs=["C:/Program Files/MeCab/sdk"],
+			library_dirs=["C:/Program Files/MeCab/sdk"],
 			libraries=["libmecab"])
 			])
